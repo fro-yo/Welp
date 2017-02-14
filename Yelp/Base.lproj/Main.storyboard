@@ -40,13 +40,13 @@
                                                         <constraint firstAttribute="width" constant="65" id="kOK-d5-8rx"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="1. Grand Pu Bah" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zws-Q0-Ki3">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="253" verticalHuggingPriority="251" text="1. Grand Pu Bah" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zws-Q0-Ki3">
                                                     <rect key="frame" x="81" y="8" width="115" height="18"/>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="0.07 mi" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PWS-a5-g1S">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="753" text="0.07 mi" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PWS-a5-g1S">
                                                     <rect key="frame" x="317" y="8" width="50" height="18"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                     <color key="textColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
@@ -90,6 +90,7 @@
                                                 <constraint firstItem="f9p-Zh-RAD" firstAttribute="centerY" secondItem="Eq7-Pq-Oyv" secondAttribute="centerY" id="65l-xj-gMB"/>
                                                 <constraint firstItem="zOx-vF-sMX" firstAttribute="leading" secondItem="Zws-Q0-Ki3" secondAttribute="leading" id="IUq-JQ-8Hf"/>
                                                 <constraint firstItem="w5s-EP-G0O" firstAttribute="leading" secondItem="5QC-cP-xW4" secondAttribute="leading" constant="8" id="K3L-If-z6t"/>
+                                                <constraint firstItem="PWS-a5-g1S" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Zws-Q0-Ki3" secondAttribute="trailing" constant="8" id="LuI-kw-rVs"/>
                                                 <constraint firstItem="rdS-IJ-chr" firstAttribute="leading" secondItem="Zws-Q0-Ki3" secondAttribute="leading" id="Mv1-QU-Vke"/>
                                                 <constraint firstItem="wvG-CA-wGK" firstAttribute="trailing" secondItem="PWS-a5-g1S" secondAttribute="trailing" id="N8O-4m-SPI"/>
                                                 <constraint firstItem="Zws-Q0-Ki3" firstAttribute="leading" secondItem="w5s-EP-G0O" secondAttribute="trailing" constant="8" id="RnQ-8u-w49"/>
@@ -105,7 +106,6 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="accessoryView" destination="5QC-cP-xW4" id="Mqg-44-t6F"/>
                                             <outlet property="addressLabel" destination="zOx-vF-sMX" id="Mz4-Yx-CNf"/>
                                             <outlet property="businessImageView" destination="w5s-EP-G0O" id="mTD-fT-fiy"/>
                                             <outlet property="cuisineLabel" destination="rdS-IJ-chr" id="lrH-j7-Z7F"/>
