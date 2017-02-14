@@ -34,7 +34,7 @@ class BusinessCell: UITableViewCell {
         super.awakeFromNib()
         businessImageView.layer.cornerRadius = 3
         businessImageView.clipsToBounds = true
-        nameLabel.preferredMaxLayoutWidth = nameLabel.frame.size.width
+        //nameLabel.preferredMaxLayoutWidth = nameLabel.frame.size.width
         // Initialization code
     }
     
