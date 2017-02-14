@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Project 3 - Welp
 
 **Welp** is a Yelp search app using the [Yelp API](http://www.yelp.com/developers/documentation/v2/search_api).
@@ -55,3 +56,7 @@ Please list two areas of the assignment you'd like to **discuss further with you
     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
     See the License for the specific language governing permissions and
     limitations under the License.
+=======
+# Welp
+A Yelp! Client
+>>>>>>> ef6bc86548d1a01830707ab197d4aa3f3b92acf9
